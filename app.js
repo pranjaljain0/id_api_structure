@@ -208,6 +208,8 @@ app.get('/voter/', function (req, res) {
 
 app.get('/passport/', function (req, res) {
     res.setHeader('Content-Type', 'application/json');
+    
+    var passportNum = req.query.passport_num
 
     var passportSkeleton=`{
       "name": "<< Name on passport >>",
@@ -215,7 +217,7 @@ app.get('/passport/', function (req, res) {
       "dob": "<< Date of birth  dd/mm/yyyy>>",
       "doe": "<< Expiration Date dd/mm/yyyy>>",
       "gender": "<< M , F or T >>",
-      "passport_no": "<< Passport Number>>",
+      "passport_no": "`+passportNum+`",
       "type": "<< Passport Type >>",
       "country": "<< Country Code >>",
         "consent":"<< Y or N >>",
