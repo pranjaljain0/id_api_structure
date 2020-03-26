@@ -1,7 +1,7 @@
 
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 6969
 
 
 
@@ -14,7 +14,7 @@ app.get('/aadhar/', function (req, res) {
     res.setHeader('Content-Type', 'application/json');
 
     var AadharName = "Pranjal Jain"
-    var AadharNum = "466330413405"
+    var AadharNum = req.query.aadhar_num
 
 var aadharSkeleton=`{  
   "id":"8aefba88-07fd-441a-9587-62b0fac9a668",
