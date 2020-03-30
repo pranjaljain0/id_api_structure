@@ -12,26 +12,26 @@
 ##Prerequisites
 [node js](https://nodejs.org/en/ "Node Js") - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 [express js](https://expressjs.com/ "express js") - web application framework
-##Steps
+## Steps
 1) `git clone ${this repo}`
 2) `npm install`
 3) `node app.js`
 4) go to [localhost:6969](localhost:6969 "localhost:6969")
-##Routes
-###Aadhar
+## Routes
+### Aadhar
 [localhost:6969/aadhar](localhost:6969/aadhar "localhost:6969/aadhar")
-###Driving License
+### Driving License
 [localhost:6969/dl](localhost:6969/dl "localhost:6969/dl")
-###PAN
+### PAN
 [localhost:6969/pan](localhost:6969/pan "localhost:6969/pan")
 ###Passport
 [localhost:6969/passport](localhost:6969/passport "localhost:6969/passport")
-###Voter ID
+### Voter ID
 [localhost:6969/voter](localhost:6969/voter "localhost:6969/voter")
 # Introduction
-##Digital Identity
+## Digital Identity
 As we know that identities in today's world are so important, for any application, we need to verify identification. this express application helps with testing of applications which need different forms of digital identification.
-###Driving License
+### Driving License
 
 
     {
@@ -97,7 +97,7 @@ As we know that identities in today's world are so important, for any applicatio
         "response_msg": "Success",
         "response_code": "101"
     }
-###Aadhar
+### Aadhar
 
 
     {  
@@ -133,7 +133,7 @@ As we know that identities in today's world are so important, for any applicatio
        }
     }
     
-###Permenant account number(PAN)
+### Permenant account number(PAN)
 
 
     {
@@ -157,7 +157,7 @@ As we know that identities in today's world are so important, for any applicatio
         "response_timestamp": "2018-06-21 14:23:08:295 +05:30"
     }
     
-###Passport
+### Passport
 
 
     {
@@ -172,7 +172,7 @@ As we know that identities in today's world are so important, for any applicatio
           "consent":"<< Y or N >>",
           "consent_text":"<< Consent Message >>"
     } 
-###Voter ID
+### Voter ID
 
 
     {
