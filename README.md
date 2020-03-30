@@ -9,9 +9,11 @@
 [TOC]
 
 # Getting Started
-##Prerequisites
+## Prerequisites
 [node js](https://nodejs.org/en/ "Node Js") - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-[express js](https://expressjs.com/ "express js") - web application framework
+
+[express js](https://expressjs.com/ "express js") - web application framework.
+
 ## Steps
 1) `git clone ${this repo}`
 2) `npm install`
