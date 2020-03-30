@@ -2,12 +2,6 @@
 
 `NOTE: THIS IS JUST THE STRUCTURE NOT A RESTFUL API`
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
 # Getting Started
 ## Prerequisites
 [node js](https://nodejs.org/en/ "Node Js") - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
